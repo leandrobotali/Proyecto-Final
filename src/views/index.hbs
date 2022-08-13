@@ -1,0 +1,17 @@
+<div class="card card-body p-5 mt-4">
+  <h1 class="display-4">Bienvenidos</h1>
+  <p class="lead">Proyecto Final del curso de backend de Coderhouse</p>
+  {{#if info}}
+    <hr class="my-4" />
+    <p>Cantidad de nucleos: {{info.cpus}}</p>
+    <p>Path de ejecucion: {{info.path}}</p>
+    <p>Carpeta del proyecto: {{info.folder}}</p>
+    <p>Argumentos de ejecucion: {{info.argv}}</p>
+    <p>Plataforma: {{info.platform}}</p>
+    <p>Version de Node: {{info.node_version}}</p>
+    <p>Id del proceso: {{info.pid}}</p>
+    <p>Memoria total Reservada: {{info.memory_usage}}</p>
+  {{/if}}
+  <hr class="my-4" />
+  <p>Espero recibir una buena nota! Gracias!!</p>
+</div>
