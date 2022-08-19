@@ -1,4 +1,4 @@
-# Tercer-Entrega de proyecto final
+# Proyecto Final Curso de BK
 
 ## Run en localhost:
 
@@ -6,15 +6,15 @@
   
   $ npm i
 
-  $set environment variables:
-  MONGO_URI_LOCAL (default mongodb://localhost:27017)
-  MONGO_URI_ATLAS 
-  NODE_ENV (default dev)
-  PRIVATE_KEY
-  EMAIL_ADMIN 
-  ETHEREAL_EMAIL_NAME
-  ETHEREAL_EMAIL_USERNAME
-  ETHEREAL_EMAIL_PASSWORD
+  $ set environment variables:
+  $   MONGO_URI_LOCAL (default mongodb://localhost:27017)
+  $   MONGO_URI_ATLAS 
+  $   NODE_ENV (default dev)
+  $   PRIVATE_KEY
+  $   EMAIL_ADMIN 
+  $   ETHEREAL_EMAIL_NAME
+  $   ETHEREAL_EMAIL_USERNAME
+  $   ETHEREAL_EMAIL_PASSWORD
   
   $ npm run dev
 
